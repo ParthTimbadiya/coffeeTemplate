@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+SC:wght@300;400;500;600;700&family=Creepster&family=Dancing+Script:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Ms+Madi&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik+Dirt&display=swap");
+/* font-family: 'Aboreto', cursive; */
+/* font-family: 'Cormorant SC', serif; */
+/* font-family: 'Creepster', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Edu NSW ACT Foundation', cursive; */
+/* font-family: 'Frank Ruhl Libre', serif; */
+/* font-family: 'Ms Madi', cursive; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Mono', monospace; */
+/* font-family: 'Rubik Dirt', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Cormorant+SC:wght@300;400;500;600;700&family=Creepster&family=Dancing+Script:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Lobster&family=Ms+Madi&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik+Dirt&display=swap");
+/* font-family: 'Bodoni Moda', serif; */
+/* font-family: 'Lobster', cursive; */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --color--1: #4d8b55;
+  --color--2: #151515;
+  --color--3: rgba(255, 255, 255, 0.05);
+  --font--1: "Playfair Display", serif;
+  --font--2: "Bodoni Moda", serif;
+  --font--3: "Frank Ruhl Libre", serif;
+  --font--4: "Ms Madi", cursive;
+}
+.img-logo img {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  transition: all 1s;
+}
+.img-logo img:hover {
+  bottom: -5vh;
+}
+.list-bar ul li a,
+.call-bar ul li a {
+  color: #fff;
+  font-family: var(--font--1);
+}
+.list-bar ul li a:hover,
+.call-bar ul li a :hover {
+  color: var(--color--1);
+  border-bottom: 2px solid var(--color--1);
+}
+
+.carousel-item img {
+  animation: myanimations 3s infinite;
+  animation-fill-mode: forwards;
+  transition: 1s ease-in-out;
+}
+@keyframes myanimations {
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.carousel-caption button:hover {
+  background-color: #fff;
+  color: var(--color--1);
+  transition: 1s;
+  transform: scale(1.1);
+}
+.tea-cho-cake {
+  background-color: var(--color--2);
+}
+.tea-coffee-img:hover img {
+  transform: rotateZ(30deg) rotateY(45deg) translate3d(30px, 20px, 10px);
+  border-radius: 50%;
+  transition: 2s;
+}
+.tea-text h3 {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 900;
+}
+.tea-text h3:hover {
+  color: var(--color--1);
+  transition: 0.5s;
+}
+.Tasty-Products-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../image/background/img_1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.manu-card h2 {
+  font-size: 8vh;
+  font-family: var(--font--1);
+  color: #fff;
+}
+.manu-card {
+  margin-top: 30vh;
+}
+.Tasty-back-img {
+  height: 200vh;
+  background-image: url(../image/background/img_2.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.content {
+  height: 80vh;
+  padding-bottom: 10vh;
+  overflow-y: scroll;
+  margin-top: -35vh;
+}
+.Tasty-back-img ul {
+  padding: 0vh 0 35vh 0;
+}
+
+.Tasty-back-img ul li a {
+  color: black;
+  padding: 1vh 1vh;
+  font-family: var(--font--2);
+}
+.Tasty-back-img ul li a:hover {
+  color: var(--color--1);
+  border-radius: 50px;
+  border: 1px solid var(--color--1);
+}
+.ca-card-text h4 {
+  font-weight: 900;
+  font-family: var(--font--1);
+}
+.ca-card-text h5 {
+  font-weight: 900;
+  font-family: var(--font--2);
+  color: var(--color--1);
+}
+.ca-card-text span {
+  flex: 1;
+  border-bottom: 3px dotted rgba(0, 0, 0, 0.5);
+  margin: 0px 15px 0;
+  position: relative;
+  top: -8px;
+}
+.ca-text span {
+  font-family: var(--font--3);
+}
+.ca-img img {
+  transition: 1s;
+}
+.ca-img img:hover {
+  transform: scale(0.1);
+}
+.kafa-menu-button button:hover {
+  background-color: var(--color--2);
+  color: #fff;
+  transform: scale(1.1);
+}
+.Lounge_Interior {
+  background-color: var(--color--2);
+}
+.Lounge_text h2 {
+  color: var(--color--1);
+  font-family: var(--font--1);
+  font-size: 8vh;
+}
+.Lounge_text h3 {
+  color: #fff;
+  font-family: var(--font--2);
+  padding: 3vh 0;
+}
+.Lounge_text p {
+  color: #fff;
+  font-family: var(--font--3);
+}
+.lounge_img {
+  border-radius: 2vh;
+  filter: contrast(1.5);
+  overflow: hidden;
+}
+.lounge_img:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.booking_table {
+  background-image: url(../image/background/img_black_3.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img_flower {
+  background-image: url(../image/background/black_leaf_1.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  text-align: center;
+  padding: 10vh 0 0 0;
+}
+.img_flower h2 {
+  color: #fff;
+  font-size: 9vh;
+  font-family: var(--font--1);
+}
+.img_flower h3 {
+  color: var(--color--2);
+  font-family: var(--font--3);
+  font-size: 5vh;
+  margin-bottom: 5vh;
+}
+.form_text input {
+  padding: 3vh 2vh;
+  border-radius: 50px;
+  border: none;
+  /* background: transparent; */
+  font-family: var(--font--1);
+}
+.form_text input:hover {
+  background-color: rgb(236, 233, 233);
+}
+.form_text {
+  margin-top: 5vh;
+}
+.from_btn button {
+  padding: 3vh 0vh;
+  border-radius: 50px;
+  border: none;
+  font-family: var(--font--1);
+  background-color: var(--color--2);
+  color: #fff;
+  transition: 1s;
+  margin: 5vh 0;
+}
+.from_btn button:hover {
+  background-color: #fff;
+  color: var(--color--2);
+}
+.Roasted_Brasilian {
+  background-color: var(--color--2);
+}
+.rosted_btn button {
+  padding: 3vh 11vh;
+  font-family: var(--font--2);
+  background-color: var(--color--1);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  margin: 5vh 0 0 0;
+}
+.rosted_btn button:hover {
+  background-color: #fff;
+  color: var(--color--2);
+  transition: 1s;
+  transform: scale(1.1);
+}
+.rosted_back_img {
+  background-image: url(../image/background/black-leaf_2.png);
+  background-repeat: no-repeat;
+  background-position: 70%;
+  /* background-size: cover; */
+}
+.rosted_back_img_text h2 {
+  font-family: var(--font--1);
+  font-size: 8vh;
+  color: var(--color--1);
+}
+
+/* .rosted_side_img{
+  overflow: hidden;
+}
+.rosted_side_img:hover img{
+  transform: rotateY(360deg);
+  transition: 1s;
+} */
+
+.product_services {
+  background-color: var(--color--2);
+}
+.pro_icons_sep {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20vh 0 5vh 0;
+}
+.pro_main {
+  background-color: var(--color--3);
+  width: 350px;
+  text-align: center;
+  padding: 10vh 2vh;
+}
+.pro_icons i {
+  font-size: 10vh;
+  color: var(--color--1);
+}
+.pro_icons i:hover {
+  transform: scale(0.1);
+  transition: 1s;
+}
+.pro_text h3 {
+  font-family: var(--font--1);
+  color: #fff;
+  margin: 3vh 0;
+}
+.pro_text p {
+  font-family: var(--font--2);
+  color: gray;
+  font-size: 3vh;
+}
+.Coffee_Machines {
+  background-color: var(--color--2);
+}
+.coffee_back_img {
+  background-color: var(--color--1);
+  background-image: url(../image/background/img_machine_pattern_1.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.coffe_text h2 {
+  font-size: 11vh;
+  font-family: var(--font--1);
+  font-weight: 900;
+}
+.coffe_text h3 {
+  font-size: 7vh;
+  color: #fff;
+  font-family: var(--font--2);
+  font-weight: 900;
+}
+.coffe_text p {
+  font-size: 3vh;
+  color: rgb(204, 196, 196);
+  font-family: var(--font--3);
+}
+.coffe_sm_img {
+  position: absolute;
+}
+
+.coffee_btn button {
+  padding: 3vh 11vh;
+  font-family: var(--font--2);
+  background-color: var(--color--2);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  margin: 5vh 0 3vh 0;
+}
+.coffee_btn button:hover {
+  background-color: #fff;
+  color: var(--color--2);
+  transition: 1s;
+  transform: scale(1.1);
+}
+.coffee_prodects {
+  background-color: var(--color--2);
+}
+.co_pro_text {
+  text-align: center;
+}
+.co_pro_text h6 {
+  color: #fff;
+  font-family: var(--font--3);
+  font-weight: 900;
+  margin-top: 3vh;
+}
+.co_pro_text span {
+  color: var(--color--1);
+  font-family: var(--font--3);
+  font-weight: 900;
+}
+.co_pro_text del {
+  color: gray;
+  font-family: var(--font--3);
+  font-weight: 900;
+}
+.sale span {
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.5vh;
+  font-weight: 500;
+  position: absolute;
+}
+.co_pro_text ins {
+  color: red;
+  font-family: var(--font--3);
+  font-weight: 900;
+}
+.co_pro_btn button {
+  margin: 5vh 0;
+  padding: 3vh 9vh;
+  border: none;
+  border-radius: 50px;
+  font-size: 2vh;
+  color: #fff;
+  transition: 1s;
+  background-color: var(--color--1);
+  font-family: var(--font--1);
+}
+.co_pro_btn button:hover {
+  color: var(--color--2);
+  background-color: #fff;
+}
+
+footer {
+  background-image: url(../image/background/footer-bg.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.footer_text p {
+  font-weight: lighter;
+  color: #fff;
+  font-family: var(--font--2);
+  opacity: 50%;
+  margin: 5vh 0;
+}
+.con_text h3,
+.sub_text h3 {
+  border-bottom: 2px solid var(--color--1);
+  margin-bottom: 5vh;
+  padding-bottom: 2vh;
+}
+.con_text h3,
+.sub_text h3 {
+  color: var(--color--1);
+  font-family: var(--font--1);
+  font-weight: 900;
+}
+.con_text span {
+  color: #fff;
+  transition: 0.5s;
+}
+.con_text span:hover {
+  color: var(--color--1);
+}
+.mail_text {
+  padding: 3vh 3vh;
+  border-radius: 50px;
+  border: none;
+}
+.sub_btn:hover {
+  background-color: rgb(198, 196, 196);
+  color: var(--color--2);
+}
+.copy_right span {
+  font-family: var(--font--2);
+  color: #fff;
+}
+.copy_right strong {
+  font-family: var(--font--1);
+  color: rgb(233, 146, 34);
+  margin: 0 2vh;
+  border-bottom: 2px solid rgb(233, 146, 34);
+  letter-spacing: 0.5vh;
+}

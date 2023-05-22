@@ -1,0 +1,351 @@
+:root {
+  --color--1: #4d8b55;
+  --color--2: #151515;
+  --font--1: "Playfair Display", serif;
+  --font--2: "Bodoni Moda", serif;
+  --font--3: "Frank Ruhl Libre", serif;
+  --font--4: "Ms Madi", cursive;
+}
+
+@media only screen and (min-width: 320px) {
+  .carousel-caption h1 {
+    font-size: 3vh;
+    font-weight: 900;
+    font-family: var(--font--4);
+  }
+  .carousel-caption p {
+    font-size: 1vh;
+    font-weight: lighter;
+    font-family: var(--font--2);
+  }
+  .carousel-caption button,
+  .kafa-menu-button button {
+    padding: 0.5vh 1vh;
+    font-size: 1vh;
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 0.5vh;
+    color: #fff;
+    transition: 1s;
+    background-color: var(--color--1);
+    font-family: var(--font--1);
+  }
+  .tea-coffee-img {
+    position: relative;
+    top: 5vh;
+    z-index: 1;
+    filter: contrast(1.5);
+    overflow: hidden;
+  }
+  .tea-text {
+    position: relative;
+    top: -5vh;
+    left: 0%;
+    z-index: 2;
+  }
+  .contect_form {
+    background-color: var(--color--1);
+    width: 50vh;
+    /* height: 60vh; */
+  }
+  /* .rosted_side_img{
+    overflow: hidden;
+    animation: myanimations 3s infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes myanimations {
+    70%{
+      padding-right: 30vh;
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  } */
+
+  .sub_btn {
+    padding: 3vh 6vh;
+    border-radius: 50px;
+    background-color: var(--color--1);
+    border: none;
+    font-family: var(--font--1);
+    font-weight: 700;
+    position: relative;
+    /* right: -5vh; */
+    margin-top: 2vh;
+    transition: 0.5s;
+  }
+
+  .coffe_text span {
+    position: relative;
+    bottom: 14vh;
+    left: 1.5vh;
+    font-size: 6vh;
+    font-family: var(--font--1);
+    font-weight: 900;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 6vh;
+    font-weight: 900;
+    font-family: var(--font--4);
+  }
+  .carousel-caption p {
+    font-size: 2vh;
+    font-weight: lighter;
+    font-family: var(--font--2);
+  }
+  .carousel-caption button,
+  .kafa-menu-button button {
+    padding: 1vh 3vh;
+    font-size: 2vh;
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 0.5vh;
+    color: #fff;
+    transition: 1s;
+    background-color: var(--color--1);
+    font-family: var(--font--1);
+  }
+  .contect_form {
+    background-color: var(--color--1);
+    width: 50vh;
+    /* height: 80vh; */
+  }
+  /* .rosted_side_img{
+    overflow: hidden;
+    animation: myanimations 3s infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes myanimations {
+    70%{
+      padding-right: 50vh;
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  } */
+
+  .sub_btn {
+    padding: 3vh 6vh;
+    border-radius: 50px;
+    background-color: var(--color--1);
+    border: none;
+    font-family: var(--font--1);
+    font-weight: 700;
+    position: relative;
+    right: 8vh;
+    transition: 0.5s;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navigation {
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    text-align: right;
+    z-index: 2;
+  }
+  .carousel-caption h1 {
+    font-size: 8vh;
+    font-weight: 900;
+    font-family: var(--font--4);
+  }
+  .carousel-caption p {
+    font-size: 1.5vh;
+    font-weight: lighter;
+    font-family: var(--font--2);
+  }
+  .carousel-caption button,
+  .kafa-menu-button button {
+    padding: 2vh 4vh;
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 0.5vh;
+    color: #fff;
+    transition: 1s;
+    background-color: var(--color--1);
+    font-family: var(--font--1);
+  }
+  .contect_form {
+    background-color: var(--color--1);
+    width: 60vh;
+    /* height: 90vh; */
+  }
+
+  /* .rosted_side_img{
+    overflow: hidden;
+    animation: myanimations 3s infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes myanimations {
+    70%{
+      padding-right: 30vh;
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  } */
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-caption h1 {
+    font-size: 10vh;
+    font-weight: 900;
+    font-family: var(--font--4);
+  }
+  .carousel-caption p {
+    font-size: 2vh;
+    font-weight: lighter;
+    font-family: var(--font--2);
+  }
+  .carousel-caption button,
+  .kafa-menu-button button {
+    padding: 2vh 4vh;
+    border: none;
+    border-radius: 50px;
+    letter-spacing: 0.5vh;
+    color: #fff;
+    transition: 1s;
+    background-color: var(--color--1);
+    font-family: var(--font--1);
+  }
+  .carousel-caption {
+    margin-bottom: 10%;
+  }
+  .tea-coffee-img {
+    position: relative;
+    top: -10vh;
+    z-index: 1;
+    filter: contrast(1.5);
+    overflow: hidden;
+  }
+  .tea-text {
+    position: relative;
+    top: -19vh;
+    left: 0%;
+    z-index: 2;
+  }
+  .contect_form {
+    background-color: var(--color--1);
+    width: 90vh;
+    /* height: 50vh; */
+    /* position: relative; */
+    /* right: 15vh; */
+    /* top: 10vh; */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contect_form {
+    background-color: var(--color--1);
+    width: 100vh;
+  }
+  .sub_btn {
+    padding: 3vh 6vh;
+    border-radius: 50px;
+    background-color: var(--color--1);
+    border: none;
+    font-family: var(--font--1);
+    font-weight: 700;
+    position: relative;
+    right: -1vh;
+    margin-top: 2vh;
+    transition: 0.5s;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .navigation {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    text-align: right;
+    z-index: 2;
+  }
+  .carousel-caption h1 {
+    font-size: 20vh;
+    font-weight: 900;
+    font-family: var(--font--4);
+  }
+  .carousel-caption p {
+    font-size: 4vh;
+    font-weight: lighter;
+    font-family: var(--font--2);
+  }
+  .carousel-caption button,
+  .kafa-menu-button button {
+    margin-top: 2vh;
+    padding: 3vh 7vh;
+    border: none;
+    border-radius: 50px;
+    font-size: 3vh;
+    letter-spacing: 0.5vh;
+    color: #fff;
+    transition: 1s;
+    background-color: var(--color--1);
+    font-family: var(--font--1);
+  }
+  .carousel-caption {
+    margin-bottom: 10%;
+  }
+  .tea-coffee-img {
+    position: relative;
+    top: -15vh;
+    z-index: 1;
+    filter: contrast(1.5);
+    overflow: hidden;
+  }
+  .tea-text {
+    position: relative;
+    top: -28vh;
+    left: 0%;
+    z-index: 2;
+  }
+  .contect_form {
+    background-color: var(--color--1);
+    width: 72vh;
+    height: 100vh;
+    position: relative;
+    right: 30vh;
+    top: 20vh;
+  }
+
+  .rosted_side_img img {
+    overflow: hidden;
+    animation: youranimations 3s infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes youranimations {
+    70% {
+      /* height: 50vh; */
+      /* position: relative; */
+      top: 10vh;
+      left: 10vh;
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  .coffe_text span {
+    position: relative;
+    bottom: 18vh;
+    left: 2.5vh;
+    font-size: 8vh;
+    font-family: var(--font--1);
+    font-weight: 900;
+  }
+  .sub_btn {
+    padding: 3vh 6vh;
+    border-radius: 50px;
+    background-color: var(--color--1);
+    border: none;
+    font-family: var(--font--1);
+    font-weight: 700;
+    position: relative;
+    right: 7.5vh;
+    transition: 0.5s;
+  }
+}
